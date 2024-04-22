@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 79px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+/* configurando a navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #111;
+    color: #eee;
+    padding: 30px 0;
+    position: fixed;
+}
+
+.navbar-itens {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-itens li {
+    text-transform: uppercase;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.navbar-itens li a:hover {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar .fa-bars {
+    display: none;
+}
+
+.navbar-itens-mobile {
+    display: none;
+}
+
+/* configurando a showcase */
+
+#showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/showcase.jpg) no-repeat center center/cover;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-blend-mode: color;
+    padding-top: 50px;
+}
+
+.showcase-container {
+    color: #eee;
+    text-align: center;
+}
+
+.showcase-container h2 {
+    margin-bottom: 5px;
+    font-size: 35px;
+}
+
+.showcase-container p {
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.showcase-container .btn {
+    display: inline-block;
+    background-color: #111;
+    color: #eee;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.showcase-container .btn:hover {
+    background-color: #000;
+}
+
+/* configurando os clientes */
+
+.clients {
+    width: 100%;
+    background-color: #eee;
+    color: #111;
+    padding-top: 30px;
+}
+
+.headline {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.clients-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 40px 0 50px 0;
+}
+
+.client {
+    display: inline-block;
+    width: 22%;
+}
+
+/* configurando as features */
+
+#features {
+    width: 100%;
+    background-color: #222;
+    color: #eee;
+    padding-top: 30px;
+}
+
+.features .headline {
+    color: #eee;
+    font-weight: normal;
+    padding-top: 30px;
+}
+
+.features-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.feature i {
+    font-size: 35px;
+}
+
+.filter-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* configurando nosso produto */
+
+.product {
+    background-color: #eee;
+    color: #222;
+    padding: 30px;
+}
+
+.product-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.iphone-x {
+    width: 20%;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    gap: 10px;
+    margin-bottom: 10px;
+} 
+
+/* configurando as avaliações */
+
+.testimonials {
+    width: 100%;
+    background-color: #222;
+    color: #eee;
+    padding: 30px;
+}
+
+.testimonials-container {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.testimonial {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 15%;
+}
+
+/* configurando a galeria */
+
+
+#gallery {
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+}
+
+.gallery-container {
+    padding-top: 30px;
+}
+
+.gallery-image {
+    width: 98%;
+    height: 230px;
+    border-radius: 5px;
+} 
+
+ul.slick-dots {
+    bottom: -30px;
+}
+
+ul.slick-dots li button::before {
+    font-size: 10px;
+}
+
+/* configurando o footer */
+
+.footer {
+    background-color: #222;
+    color: #eee;
+    padding: 30px;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 300px;
+}
+
+/* configurando a navbar */
+
+.navbar {
+    padding: 15px;
+    position: static;
+}
+
+.navbar-itens {
+    display: none;
+}
+
+/* configurando a navbar mobile */
+
+.navbar .fa-bars {
+    display: block;
+    color: #eee;
+    font-size: 20px;  
+    cursor: pointer;
+}
+
+.navbar-itens-mobile {
+    display: none;
+    text-align: center;
+    background-color: #111;
+}
+
+.navbar-itens-mobile li {
+    padding: 10px;
+}
+
+.navbar-itens-mobile li a {
+    color: #eee;
+    font-size: 18px;
+} 
+
+.open-mobile {
+    display: block;
+}
+
+/* configurando a showcase */
+
+.showcase-container {
+    padding: 10px;
+}
+
+.showcase-container h2 {
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.showcase-container p {
+    padding: 0px 30px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+/* configurando os clientes */
+
+.client {
+    width: 50px;
+}
+
+/* configurando as features */
+
+.features-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.product-container {
+    flex-direction: column;
+}
+
+/* configurando nosso produto */
+
+.iphone-x {
+    width: 40%;
+}
+
+.item {
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+/* configurando as avaliações */
+
+.testimonials-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.testimonial {
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+}
+
+.testimonial:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+.testimonial img {
+    width: 25%;
+}
+
+/* configurando a galeria */
+
+#gallery {
+    width: 98%;
+}
+
+.gallery-image {
+    width: 98%;
+    height: 135px;
+    border-radius: 5px;
+} 
