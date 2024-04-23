@@ -235,7 +235,7 @@ a {
 
 
 #gallery {
-    width: 80%;
+    width: 85%;
     margin: auto;
     padding: 30px;
 }
@@ -245,8 +245,8 @@ a {
 }
 
 .gallery-image {
-    width: 97%;
-    height: 230px;
+    width: 98%;
+    height: 240px;
     border-radius: 5px;
 } 
 
@@ -256,6 +256,10 @@ ul.slick-dots {
 
 ul.slick-dots li button::before {
     font-size: 10px;
+}
+
+.slick-arrow {
+    display: none;
 }
 
 /* configurando o footer */
