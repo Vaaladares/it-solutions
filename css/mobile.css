@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
-html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 300px;
-}
-
 /* configurando a navbar */
+
+header {
+    position: fixed;
+    width: 100%;
+}
 
 .navbar {
     padding: 15px;
     position: static;
+    height: 86px;
 }
 
 .navbar-itens {
@@ -43,6 +43,10 @@ html {
 
 .open-mobile {
     display: block;
+}
+
+.close-mobile {
+    display: none;
 }
 
 /* configurando a showcase */
