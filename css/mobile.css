@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+.container-mae {
+    width: 100%;
+}
+
 /* configurando a navbar */
 
 header {
@@ -132,6 +136,6 @@ header {
     border-radius: 5px;
 } 
 
-.slick-arrow {
+button.slick-prev, .slick-next {
     display: none;
 }
