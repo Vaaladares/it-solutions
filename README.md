@@ -1,2 +1,1 @@
-# it-solutions
- 
+Site criado para demonstrar um pouco do trabalho de uma empresa. Nele apresentamos o que a empresa faz, os produtos que a empresa trabalha, quem são seus clientes, feedback de clientes, e no final algumas imagens que ilustram o trabalho da empresa. Site simples e intuitivo.  
